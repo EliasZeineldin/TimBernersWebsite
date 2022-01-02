@@ -60,25 +60,58 @@ vertical-align: middle;
     font-family: Impact;
     cursor: pointer;
     position: fixed;
-    top: 10px;
-    right:30px;
+   margin-top: 0px;
     z-index: 10;
+    background: white;
+    width:100%;
+top: 0px;
 }
+
 .links{
 float: left;
 color: burlywood;
 font-family: fantasy;
 font-size: 20px;
-padding-top: 5px;
-padding-left: 9px;
-padding-right: 9px;
-padding-bottom: 5px;
+padding-left: 33px;
+padding-right: 25px;
+display: inline;
 }
 .links:hover{
     background-color: darkgoldenrod;
+    font-size: 25px;
+    text-decoration: underline;
+
 }
 #span{
     font-family: 'Pushster', cursive;
     font-size: 30px;
     line-height: 1.2;
 }
+a{
+    text-decoration: none;
+color: tomato;
+text-shadow: 2px 2px gainsboro;
+
+}
+
+.article:hover{
+color:red;
+}
+html{
+    scroll-behavior: smooth;
+}
+#writings a {
+text-shadow: none !important;
+text-decoration: underline !important;
+color: blue !important;
+}
+.contact_1 a {
+color: white;
+text-shadow: none;
+}
+ .contact_1 h3 {
+    display:inline;
+    
+ }
+
+
